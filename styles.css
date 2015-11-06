@@ -1,0 +1,163 @@
+/* Colors
+Green: #72AB00
+Grey: #9A9A9A
+*/
+
+/* Page Wide Styles */
+body {
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li {
+     display: inline;
+}
+
+ol, ul {
+     padding: 0px;
+}
+
+/* Header Styles */
+header {
+     background-color: black;
+     clear: right;
+}
+
+header h1 {
+     display: inline;
+     position: relative;
+     top: 30px;
+}
+
+header .FirstName {
+     color: #72AB00;
+     margin-left: 170px;
+}
+
+header .LastName {
+     color: #9A9A9A;
+}
+
+header h2 {
+     color: #72AB00;
+     margin-top: 40px;
+     margin-left: 170px;
+     padding-bottom: 30px;
+}
+
+header nav {
+     float: right;
+     text-transform: uppercase;
+     position: relative;
+     top: 70px;
+     right: 180px;
+}
+
+header a:link {
+     color: #9A9A9A;
+     text-decoration: none;
+     box-shadow: inset 0px 2px #9A9A9A;
+     padding: 5px;
+}
+
+header a:visited {
+     color: #9A9A9A;
+     text-decoration: none;
+}
+
+header a:hover {
+     color: #72AB00;
+     box-shadow: inset 0px 4px #72AB00;
+     padding: 5px;
+
+}
+
+header a:active {
+     color: #72AB00;
+     text-decoration: none;
+}
+
+/* Article Styles */
+
+article {
+     clear: right;
+}
+
+.Contact {
+     clear: right;
+     width: 919px;
+     height: 364px;
+     border-radius: 5px;
+     background-color: #F6F6F6;
+     margin: 0px auto;
+     border: 1px solid #9A9A9A;
+     padding-left: 50px;
+     box-sizing: padding-box;
+}
+
+.Contact img {
+     padding: 40px 50px 0 0;
+     margin: auto, 0px;
+     float: right;
+     width: 228px;
+     height: 289px;
+}
+
+.Contact h1 {
+     color: #72AB00;
+}
+
+section {
+     width: 700px;
+     margin-left: 170px;
+}
+
+section h2 {
+     box-shadow: 0px 1px #9A9A9A;
+}
+
+section ol {
+     list-style: none;
+}
+
+.Strengths {
+     margin-left: 0px;
+     float: right;
+     position: relative;
+     left: 250px;
+     top: 20px;
+}
+
+.Strengths h3 {
+     display: inline;
+     color: #72AB00;
+     box-shadow: 0px 1px #9A9A9A;
+     margin-bottom: 0px;
+}
+
+.Strengths ul {
+     list-style: none;
+}
+
+.Professional {
+
+}
+
+.Experience  h3, .Education h3 {
+     color: #72AB00;
+}
+
+/* Footer Styles */
+
+footer {
+     box-shadow: inset 0px 1px #9A9A9A;
+     position: relative;
+}
+
+footer p {
+     padding-top: 20px;
+}
+footer nav {
+     position: relative;
+     left: 900px;
+     top: -35px;
+}
